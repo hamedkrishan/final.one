@@ -1,0 +1,15 @@
+.main img{
+    width: 350px;
+    margin: 200px;
+            }
+
+.main.opacity{
+    opacity: .25;
+    position: absolute;
+    }
+    
+    .main .rotate{
+        transform-origin: right bottom;
+        transform:rotate(30deg);
+        
+        }

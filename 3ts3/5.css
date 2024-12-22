@@ -1,0 +1,19 @@
+.main img{
+    width: 350px;
+    margin: 200px;
+            }
+.main img{
+width: 350px;
+
+}
+
+.main .opacit{
+opacity: .25;
+position: absolute;
+}
+
+.main .rotate{
+transform:rotate(-30deg);
+
+
+}

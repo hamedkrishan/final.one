@@ -1,0 +1,58 @@
+
+.main{
+transform: translate(50%,50%);
+height: 500px;
+display: flex;
+}
+
+.main .task0{
+
+width: 180px;
+height: 50px;
+border: black solid 10px;
+}
+
+.main .task0 .task1{
+width: 100%;
+height: 100%;
+animation:charger 5s linear 2s forwards;
+
+}
+
+@keyframes charger{
+
+0%{
+background-color: green;
+
+width: 20px;
+}
+20%{
+background-color: green;
+width: 40px;
+}
+40%{
+background-color: green;
+width: 70px;
+}
+60%{
+background-color: green;
+width: 100px;
+}
+
+80%{
+background-color: green;
+width: 130px;
+}
+
+100%{
+background-color: green;
+width: 100%;
+}
+}
+
+.main .task2{
+width: 10px;
+height: 45px;
+background-color: black;
+margin-top: 12.5px;
+}

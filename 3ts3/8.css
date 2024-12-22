@@ -1,0 +1,37 @@
+.main .task{
+    border-radius: 10px;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation:square2 4s backwards ;
+        }
+        
+        @keyframes square2{
+        0%{
+        background-color: red;
+        translate: 0 0;
+        }
+        25%{
+           background-color: yellow;
+           translate: 200px 0;
+
+
+        }
+        
+        50%{
+        background-color: blue;
+        translate: 200px 200px;
+        }
+        75%{
+    background-color: green;
+
+    translate: 0 200px;
+
+        }
+        
+        100%{
+        background-color: red;
+        translate: 0 0;
+
+        }
+    }

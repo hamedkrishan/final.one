@@ -1,0 +1,55 @@
+.main{
+height: 1000px;
+display: grid;
+justify-content: center;
+align-items: center;
+
+}
+
+.main .task{
+    
+    justify-content: center;
+    display: grid;
+background-color: white;
+width: 500px;
+height: 600px;
+transition: 2s;
+background-color: whitesmoke;
+}
+
+.main .task:hover{
+transform: scale(1.25);
+
+}
+
+.main img{
+    width: 20px;
+}
+
+.main h1{
+    padding-top: 30px;
+}
+
+.main p{
+opacity: 50%;
+}
+
+.main .task1{
+    height: 60px;
+text-align: center;
+font-size: 50px;
+background-color: aqua;
+}
+
+.main button{
+margin-bottom: 30px;
+width: 280px;
+background-color: white;
+color: blue;
+transition: 2s;
+
+}
+.main button:hover{
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,41 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    gap: 20px;
+    
+    }
+    
+    .task{
+        display: grid;
+       align-items: center;
+       justify-content: center;
+       justify-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(187, 185, 185);
+    border-radius: 5px;
+    }
+    
+    .task1{
+        border-radius: 5px;
+        width: 100px;
+        height: 100px;
+        background-color: #2db34a;
+        transform:rotate(80deg) ;
+        display: grid;
+        justify-content: center;
+    justify-items: center;
+    align-items: center;
+        }
+        
+        .task2{
+            border-radius: 5px;
+            width: 100px;
+            height: 100px;
+            background-color: #2db34a;
+            transform:rotate(160deg) ;
+           display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+            }

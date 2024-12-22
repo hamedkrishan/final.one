@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main .task {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: square 2s 4s forwards;
+}
+@keyframes square {
+    0% {
+        background-color: aquamarine;
+    }
+    50% {
+        background-color: brown;
+    }
+    100% {
+        background-color: darkturquoise;
+    }
+}
